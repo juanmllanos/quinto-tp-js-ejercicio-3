@@ -1,0 +1,36 @@
+.lista {
+	background-image: url(../img/papel.jpg);
+	object-fit: contain;
+	color: black;
+	border-radius: 0 20px 0 20px;
+}
+
+body {
+	background-color: black;
+	color: whitesmoke;
+	font-family: 'Indie Flower', cursive;
+}
+
+h1 {
+	font-family: 'Indie Flower', cursive;
+}
+
+.contenedorBorrar {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+#borrarTareaNumero {
+	max-width: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#eliminarTarea {
+	max-width: 150px;
+}
+
+.tarea {
+	max-width: 100%;
+}
